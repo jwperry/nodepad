@@ -12,6 +12,8 @@ html, body {
   box-sizing: inherit;
 }
 
+textarea, input, div, button { outline: none; }
+
 body {
   margin: 0;
   padding: 0;
@@ -21,4 +23,46 @@ body, input {
   font: menu;
 }
 
-textarea, input, div, button { outline: none; }
+button {
+    height: 100%;
+    width: 100px;
+    flex-grow: 1;
+}
+
+#action-panel-section {
+    width: 100%;
+    height: 75px;
+    flex-direction: row;
+    display: flex;
+}
+
+#note-panels {
+  display: flex;
+  flex-direction: row;
+  height: 100vh;
+}
+
+#left-panel {
+  flex-grow: 1;
+  background-color: red;
+  height: 100%;
+}
+
+#right-panel {
+  flex-grow: 5;
+  background-color: blue;
+  height: 100%;
+}
+
+#search-section {
+  height: 50px;
+  background-color: black;
+  padding: 10px;
+  text-align: center;
+
+}
+
+#search-section input {
+  width: 60%;
+  height: 30px;
+}
