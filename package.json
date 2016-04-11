@@ -1,5 +1,5 @@
 {
-  "name": "Nodepad 2.0",
+  "name": "Nodepad",
   "version": "0.0.1",
   "description": "A Notepad clone using NodeJS and Electron",
   "main": "lib/main.js",
@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/turingschool-examples/electron-react-starter-kid.git"
+    "url": "git+https://github.com/jwperry/nodepad"
   },
   "keywords": [
     "electron",
@@ -18,9 +18,9 @@
   "author": "Brenna Martenson & Joe Perry",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/turingschool-examples/electron-react-starter-kid/issues"
+    "url": "https://github.com/jwperry/nodepad/issues"
   },
-  "homepage": "https://github.com/turingschool-examples/electron-react-starter-kid#readme",
+  "homepage": "https://github.com/jwperry/nodepad/blob/master/README.md",
   "devDependencies": {
     "babel-eslint": "^6.0.2",
     "electron-packager": "^6.0.2",
