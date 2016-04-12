@@ -27,6 +27,11 @@ button {
     height: 100%;
     width: 100px;
     flex-grow: 1;
+    cursor: pointer;
+}
+
+button:hover {
+  background-color: green;
 }
 
 #action-panel-section {
@@ -65,4 +70,9 @@ button {
 #search-section input {
   width: 60%;
   height: 30px;
+}
+
+#all-notes-section div {
+    border-bottom: 1px dashed black;
+    padding: 10px;
 }
