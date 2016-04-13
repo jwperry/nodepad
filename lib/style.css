@@ -80,3 +80,7 @@ button:hover {
 .note-preview {
   cursor: pointer;
 }
+
+.note-preview:hover {
+  color: white;
+}
