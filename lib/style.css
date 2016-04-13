@@ -76,3 +76,11 @@ button:hover {
     border-bottom: 1px dashed black;
     padding: 10px;
 }
+
+.note-preview {
+  cursor: pointer;
+}
+
+.note-preview:hover {
+  color: white;
+}
