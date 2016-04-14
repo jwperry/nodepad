@@ -12,6 +12,10 @@ html, body {
   box-sizing: inherit;
 }
 
+#hidden-body {
+  display: none;
+}
+
 textarea, input, div, button { outline: none; }
 
 body {
@@ -21,6 +25,8 @@ body {
 
 body, input {
   font: menu;
+  font-family: helvetica;
+  font-weight: 100;
 }
 
 button {
@@ -28,10 +34,19 @@ button {
     width: 100px;
     flex-grow: 1;
     cursor: pointer;
+    cursor: pointer;
+    border: none;
+    border-right: 1px solid #e2e2e2;
+    border-bottom: 1px solid #e2e2e2;
+    background-color: #F9F7FF;
+    font-family: helvetica;
+    font-weight: 100;
+    text-transform: uppercase;
+    letter-spacing: 3px;
 }
 
 button:hover {
-  background-color: green;
+  background-color: #fff;
 }
 
 #action-panel-section {
@@ -49,20 +64,22 @@ button:hover {
 
 #left-panel {
   flex-grow: 1;
-  background-color: red;
+  background-color: #F9F7FF;
   height: 100%;
 }
 
 #right-panel {
   flex-grow: 5;
-  background-color: blue;
+  background-color: #fff;
   height: 100%;
   overflow: scroll;
+  padding: 20px;
+  max-width: 960px;
 }
 
 #search-section {
   height: 50px;
-  background-color: black;
+  background-color: ##CACCD4;
   padding: 10px;
   text-align: center;
 }
@@ -70,6 +87,9 @@ button:hover {
 #search-section input {
   width: 60%;
   height: 30px;
+  border: none;
+  padding: 3px;
+  text-align: center;
 }
 
 #all-notes-section div {
@@ -84,3 +104,114 @@ button:hover {
 .note-preview:hover {
   color: white;
 }
+
+#newBody {
+    width: 100%;
+    height: 100vh;
+    border: none;
+    font-size: 18px;
+    font-weight: 100;
+    padding: 20px;
+}
+
+/*********************************************/
+.light button {
+  color: #000;
+  background-color: #F9F7FF;
+}
+
+.light button:hover {
+  background-color: #fff;
+}
+
+.light #left-panel {
+  color: #000;
+  background-color: #F9F7FF;
+}
+
+.light #right-panel {
+  color: #5F5F5F;
+  background-color: #fff;
+}
+
+.light #search-section {
+  color: #000;
+  background-color: #CACCD4;
+}
+
+.light #edit-button, .light #save-button {
+  padding: 10px;
+  width: 200px;
+  background-color: #F9F7FF;
+  margin-bottom: 25px;
+  height: 50px;
+}
+
+.light #edit-button:hover, .light #save-button:hover {
+  background-color: #f4f4f4;
+}
+
+.light .note-preview:hover {
+  color: #5f5f5f;
+}
+
+.light .note-preview:hover {
+  color: #000;
+}
+
+.light #newBody {
+  background-color: #FCFBFF;
+}
+
+.dark #left-panel {
+  color: #fff;
+  background-color: #5F5F5F;
+  border-right: #eee;
+}
+
+.dark #right-panel {
+  color: #fff;
+  background-color: #000;
+}
+
+.dark #search-section {
+  color: #fff;
+  background-color: #000;
+}
+
+.dark button {
+  color: #fff;
+  background-color: #5F5F5F;
+  border-right: 1px solid #3C3C3C;
+  border-bottom: 1px solid #3C3C3C;
+}
+
+.dark button:hover {
+  background-color: #000;
+}
+
+.dark #edit-button, .dark #save-button {
+  padding: 10px;
+  width: 200px;
+  background-color: #aaa;
+  height: 50px;
+  margin-bottom: 25px;
+}
+
+.dark #edit-button:hover, .dark #save-button:hover {
+  background-color: #5f5f5f
+}
+
+.dark .note-preview:hover {
+  color: #eee;
+}
+
+.dark .note-preview:hover {
+  color: white;
+}
+
+.dark #newBody {
+    background-color: #272727;
+    color: #DADADA;
+}
+ 
