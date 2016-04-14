@@ -12,6 +12,10 @@ html, body {
   box-sizing: inherit;
 }
 
+#hidden-body {
+  display: none;
+}
+
 textarea, input, div, button { outline: none; }
 
 body {
