@@ -74,7 +74,6 @@ button:hover {
   height: 100%;
   overflow: scroll;
   padding: 20px;
-  max-width: 960px;
 }
 
 #search-section {
@@ -165,7 +164,7 @@ button:hover {
 
 .dark #left-panel {
   color: #fff;
-  background-color: #5F5F5F;
+  background-color: #aaa;
   border-right: #eee;
 }
 
@@ -181,7 +180,7 @@ button:hover {
 
 .dark button {
   color: #fff;
-  background-color: #5F5F5F;
+  background-color: #272727;
   border-right: 1px solid #3C3C3C;
   border-bottom: 1px solid #3C3C3C;
 }
